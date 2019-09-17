@@ -1,0 +1,125 @@
+<div>
+<a onclick="
+  fetch('주거공간.html').then(function(response){
+    response.text().then(function(text){
+      document.querySelector('.interspace-main-grid-9').innerHTML = text;
+      fetch('주거공간/종합인테리어/종합인테리어메뉴').then(function(response){
+        response.text().then(function(text){
+          document.querySelector('.인테리어메뉴').innerHTML = text;
+          fetch('주거공간/종합인테리어/전체/1.html').then(function(response){
+            response.text().then(function(text){
+              document.querySelector('.인테리어내용').innerHTML = text;
+              fetch('주거공간/종합인테리어/전체/pagenavigation').then(function(response){
+                response.text().then(function(text){
+                  document.querySelector('.pagenavigation').innerHTML = text;
+                  fetch('bottom-nav').then(function(response){
+                    response.text().then(function(text){
+                      document.querySelector('.bottom-nav').innerHTML = text;
+    })})})})})
+  })})})})});
+  "><h4>전체</h4></a>
+</div>
+<div class="">
+<a onclick="
+  fetch('주거공간.html').then(function(response){
+    response.text().then(function(text){
+      document.querySelector('.interspace-main-grid-9').innerHTML = text;
+      fetch('주거공간/종합인테리어/종합인테리어메뉴').then(function(response){
+        response.text().then(function(text){
+          document.querySelector('.인테리어메뉴').innerHTML = text;
+          fetch('주거공간/종합인테리어/원룸/1.html').then(function(response){
+            response.text().then(function(text){
+              document.querySelector('.인테리어내용').innerHTML = text;
+              fetch('주거공간/종합인테리어/원룸/pagenavigation').then(function(response){
+                response.text().then(function(text){
+                  document.querySelector('.pagenavigation').innerHTML = text;
+                  fetch('bottom-nav').then(function(response){
+                    response.text().then(function(text){
+                      document.querySelector('.bottom-nav').innerHTML = text;
+    })})})})})
+  })})})})});
+  "><h4>원룸</h4></a>
+</div>
+<div class="">
+<a onclick="
+  fetch('주거공간.html').then(function(response){
+    response.text().then(function(text){
+      document.querySelector('.interspace-main-grid-9').innerHTML = text;
+      fetch('주거공간/종합인테리어/종합인테리어메뉴').then(function(response){
+        response.text().then(function(text){
+          document.querySelector('.인테리어메뉴').innerHTML = text;
+          fetch('주거공간/종합인테리어/주택/1.html').then(function(response){
+            response.text().then(function(text){
+              document.querySelector('.인테리어내용').innerHTML = text;
+              fetch('주거공간/종합인테리어/주택/pagenavigation').then(function(response){
+                response.text().then(function(text){
+                  document.querySelector('.pagenavigation').innerHTML = text;
+                  fetch('bottom-nav').then(function(response){
+                    response.text().then(function(text){
+                      document.querySelector('.bottom-nav').innerHTML = text;
+    })})})})})
+  })})})})});
+  "><h4>주택</h4></a>
+</div>
+<div class="">
+<a onclick="
+  fetch('주거공간.html').then(function(response){
+    response.text().then(function(text){
+      document.querySelector('.interspace-main-grid-9').innerHTML = text;
+      fetch('주거공간/종합인테리어/종합인테리어메뉴').then(function(response){
+        response.text().then(function(text){
+          document.querySelector('.인테리어메뉴').innerHTML = text;
+          fetch('주거공간/종합인테리어/빌라/1.html').then(function(response){
+            response.text().then(function(text){
+              document.querySelector('.인테리어내용').innerHTML = text;
+              fetch('주거공간/종합인테리어/빌라/pagenavigation').then(function(response){
+                response.text().then(function(text){
+                  document.querySelector('.pagenavigation').innerHTML = text;
+                  fetch('bottom-nav').then(function(response){
+                    response.text().then(function(text){
+                      document.querySelector('.bottom-nav').innerHTML = text;
+    })})})})})
+  })})})})});
+  "><h4>빌라</h4></a>
+</div>
+<div class="">
+<a onclick="
+  fetch('주거공간.html').then(function(response){
+    response.text().then(function(text){
+      document.querySelector('.interspace-main-grid-9').innerHTML = text;
+      fetch('주거공간/종합인테리어/종합인테리어메뉴').then(function(response){
+        response.text().then(function(text){
+          document.querySelector('.인테리어메뉴').innerHTML = text;
+          fetch('주거공간/종합인테리어/아파트/1.html').then(function(response){
+            response.text().then(function(text){
+              document.querySelector('.인테리어내용').innerHTML = text;
+              fetch('주거공간/종합인테리어/아파트/pagenavigation').then(function(response){
+                response.text().then(function(text){
+                  document.querySelector('.pagenavigation').innerHTML = text;
+                  fetch('bottom-nav').then(function(response){
+                    response.text().then(function(text){
+                      document.querySelector('.bottom-nav').innerHTML = text;
+    })})})})})
+  })})})})});
+  "><h4>아파트</h4></a>
+</div>
+<div class="">
+<a onclick="
+  fetch('주거공간.html').then(function(response){
+    response.text().then(function(text){
+      document.querySelector('.interspace-main-grid-9').innerHTML = text;
+      fetch('주거공간/종합인테리어/종합인테리어메뉴').then(function(response){
+        response.text().then(function(text){
+          document.querySelector('.인테리어메뉴').innerHTML = text;
+          fetch('주거공간/종합인테리어/오피스텔/1.html').then(function(response){
+            response.text().then(function(text){
+              document.querySelector('.인테리어내용').innerHTML = text;
+              fetch('주거공간/종합인테리어/오피스텔/pagenavigation').then(function(response){
+                response.text().then(function(text){
+                  document.querySelector('.pagenavigation').innerHTML = text;
+                  fetch('bottom-nav').then(function(response){
+                    response.text().then(function(text){
+                      document.querySelector('.bottom-nav').innerHTML = text;
+    })})})})})
+  })})})})});
+  "><h4>오피스텔</h4></a>
