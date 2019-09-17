@@ -1,0 +1,22 @@
+<div class="pagenav">
+<a onclick="
+  fetch('파트너스.html').then(function(response){
+    response.text().then(function(text){
+      document.querySelector('.interspace-main-grid-9').innerHTML = text;
+      fetch('파트너스/파트너스메뉴').then(function(response){
+        response.text().then(function(text){
+          document.querySelector('.인테리어메뉴').innerHTML = text;
+          fetch('파트너스/전체/1.html').then(function(response){
+            response.text().then(function(text){
+              document.querySelector('.인테리어내용').innerHTML = text;
+              fetch('파트너스/전체/pagenavigation').then(function(response){
+                response.text().then(function(text){
+                  document.querySelector('.pagenavigation').innerHTML = text;
+                  fetch('bottom-nav').then(function(response){
+                    response.text().then(function(text){
+                      document.querySelector('.bottom-nav').innerHTML = text;
+    })})})})})
+  })})})})});
+  ">1
+</a>
+</div>

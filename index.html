@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>공간</title>
+    <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/sticky-footer-navbar.css" rel="stylesheet">
+    <link  href="css/animation.css"rel="stylesheet">
+    <script src="fetch/fetch.js"></script>
+  </head>
+  <body>
+    <!--menuicon-->
+    <div class="menuicon">
+    </div>
+    <!--menuicon-->
+    <div id="interspace-page">
+      <div id="interspace-aside">
+        <ul id="nav">
+        </ul>
+        <div class="aside-bottom">
+        </div>
+      </div>
+      <div id="interspace-main">
+        <div class="interspace-main-grid">
+          <div class="interspace-main-grid-9">
+          </div>
+          <div class="interspace-main-grid-3">
+          </div>
+        </div>
+      </div>
+    </div>
+      <!-- Footer(하단 고정) -->
+      <footer class="footer">
+        <div class="container">
+          <p style="text-align: center; color: rgb(76,199,205); background-color:none;"><span><b>무료견적 보러가기</b></span> / <span><b>파트너스 신청하기</b></span></p>
+        </div>
+      </footer>
+      <!--/ Footer(하단 고정) -->
+    <script>
+      fetch('list').then(function(response){
+        response.text().then(function(text){
+          document.querySelector('#nav').innerHTML = text;
+        })
+      });
+      fetch('menuicon').then(function(response){
+        response.text().then(function(text){
+          document.querySelector('.menuicon').innerHTML = text;
+        })
+      });
+      fetch('aside-bottom').then(function(response){
+        response.text().then(function(text){
+          document.querySelector('.aside-bottom').innerHTML = text;
+        })
+      });
+      fetch('interspace-main-grid-3').then(function(response){
+        response.text().then(function(text){
+          document.querySelector('.interspace-main-grid-3').innerHTML = text;
+        })
+      });
+      fetch('interspace-main-grid-9').then(function(response){
+        response.text().then(function(text){
+          document.querySelector('.interspace-main-grid-9').innerHTML = text;
+          fetch('bottom-nav').then(function(response){
+            response.text().then(function(text){
+              document.querySelector('.bottom-nav').innerHTML = text;
+        })})
+      })});
+    </script>
+    <script  src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script type="text/javascript">
+      $(document).on('click','li', function(){
+        $(this).addClass('active').siblings().removeClass('active')
+      })
+    </script>
+  </body>
+</html>

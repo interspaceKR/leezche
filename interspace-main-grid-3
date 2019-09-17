@@ -1,0 +1,25 @@
+<div class="fadeInDown animated">
+  <div class="mainright무료견적">
+    <h2>무료견적보러가기</h2>
+  </div>
+  <div class="categories">
+    <h2>Category</h2>
+    <div class="categories-main">
+      <div>House Interior<span>(0)</span></div><br>
+      <div>Store Interior<span>(0)</span></div><br>
+      <div>Partners<span>(0)</span></div><br>
+      <div>Event<span>(0)</span></div><br>
+    </div>
+    <h2>TAG</h2>
+    <div>
+      <div class="categories-tag">
+        #종합인테리어 #부분인테리어<br>#주거공간 #상업공간<br>#원룸 #아파트 #오피스텔 #주택 #빌라 #상가 #매장 #카페 #식당 #학원 #교육 #호텔 #펜션 #기타
+      </div>
+    </div>
+    <h2>Archives</h2>
+    <div class="categories-Archives">
+      <div>September 2019<span>(0)</span></div><br>
+      <div>August 2019<span>(0)</span></div><br>
+    </div>
+  </div>
+</div>

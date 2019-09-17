@@ -1,0 +1,102 @@
+<div class="pagenav">
+
+<a onclick="
+  fetch('주거공간.html').then(function(response){
+    response.text().then(function(text){
+      document.querySelector('.interspace-main-grid-9').innerHTML = text;
+      fetch('주거공간/부분인테리어/부분인테리어메뉴').then(function(response){
+        response.text().then(function(text){
+          document.querySelector('.인테리어메뉴').innerHTML = text;
+          fetch('주거공간/부분인테리어/욕실/1.html').then(function(response){
+            response.text().then(function(text){
+              document.querySelector('.인테리어내용').innerHTML = text;
+              fetch('주거공간/부분인테리어/욕실/pagenavigation').then(function(response){
+                response.text().then(function(text){
+                  document.querySelector('.pagenavigation').innerHTML = text;
+                  fetch('bottom-nav').then(function(response){
+                    response.text().then(function(text){
+                      document.querySelector('.bottom-nav').innerHTML = text;
+    })})})})})
+  })})})})});
+  ">1
+</a>
+<a onclick="
+  fetch('주거공간.html').then(function(response){
+    response.text().then(function(text){
+      document.querySelector('.interspace-main-grid-9').innerHTML = text;
+      fetch('주거공간/부분인테리어/부분인테리어메뉴').then(function(response){
+        response.text().then(function(text){
+          document.querySelector('.인테리어메뉴').innerHTML = text;
+          fetch('주거공간/부분인테리어/욕실/2.html').then(function(response){
+            response.text().then(function(text){
+              document.querySelector('.인테리어내용').innerHTML = text;
+              fetch('주거공간/부분인테리어/욕실/pagenavigation').then(function(response){
+                response.text().then(function(text){
+                  document.querySelector('.pagenavigation').innerHTML = text;
+                  fetch('bottom-nav').then(function(response){
+                    response.text().then(function(text){
+                      document.querySelector('.bottom-nav').innerHTML = text;
+    })})})})})
+  })})})})});
+  ">2
+</a>
+<a onclick="
+  fetch('주거공간.html').then(function(response){
+    response.text().then(function(text){
+      document.querySelector('.interspace-main-grid-9').innerHTML = text;
+      fetch('주거공간/부분인테리어/부분인테리어메뉴').then(function(response){
+        response.text().then(function(text){
+          document.querySelector('.인테리어메뉴').innerHTML = text;
+          fetch('주거공간/부분인테리어/욕실/3.html').then(function(response){
+            response.text().then(function(text){
+              document.querySelector('.인테리어내용').innerHTML = text;
+              fetch('주거공간/부분인테리어/욕실/pagenavigation').then(function(response){
+                response.text().then(function(text){
+                  document.querySelector('.pagenavigation').innerHTML = text;
+                  fetch('bottom-nav').then(function(response){
+                    response.text().then(function(text){
+                      document.querySelector('.bottom-nav').innerHTML = text;
+    })})})})})
+  })})})})});
+  ">3
+</a>
+<a onclick="
+  fetch('주거공간.html').then(function(response){
+    response.text().then(function(text){
+      document.querySelector('.interspace-main-grid-9').innerHTML = text;
+      fetch('주거공간/부분인테리어/부분인테리어메뉴').then(function(response){
+        response.text().then(function(text){
+          document.querySelector('.인테리어메뉴').innerHTML = text;
+          fetch('주거공간/부분인테리어/욕실/4.html').then(function(response){
+            response.text().then(function(text){
+              document.querySelector('.인테리어내용').innerHTML = text;
+              fetch('주거공간/부분인테리어/욕실/pagenavigation').then(function(response){
+                response.text().then(function(text){
+                  document.querySelector('.pagenavigation').innerHTML = text;
+                  fetch('bottom-nav').then(function(response){
+                    response.text().then(function(text){
+                      document.querySelector('.bottom-nav').innerHTML = text;
+    })})})})})
+  })})})})});
+  ">4
+</a>
+<a onclick="
+  fetch('주거공간.html').then(function(response){
+    response.text().then(function(text){
+      document.querySelector('.interspace-main-grid-9').innerHTML = text;
+      fetch('주거공간/부분인테리어/부분인테리어메뉴').then(function(response){
+        response.text().then(function(text){
+          document.querySelector('.인테리어메뉴').innerHTML = text;
+          fetch('주거공간/부분인테리어/욕실/5.html').then(function(response){
+            response.text().then(function(text){
+              document.querySelector('.인테리어내용').innerHTML = text;
+              fetch('주거공간/부분인테리어/욕실/pagenavigation').then(function(response){
+                response.text().then(function(text){
+                  document.querySelector('.pagenavigation').innerHTML = text;
+                  fetch('bottom-nav').then(function(response){
+                    response.text().then(function(text){
+                      document.querySelector('.bottom-nav').innerHTML = text;
+    })})})})})
+  })})})})});
+  ">5
+</a>

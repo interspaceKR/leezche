@@ -1,0 +1,125 @@
+<div class="">
+<a onclick="
+  fetch('주거공간.html').then(function(response){
+    response.text().then(function(text){
+      document.querySelector('.interspace-main-grid-9').innerHTML = text;
+      fetch('주거공간/부분인테리어/부분인테리어메뉴').then(function(response){
+        response.text().then(function(text){
+          document.querySelector('.인테리어메뉴').innerHTML = text;
+          fetch('주거공간/부분인테리어/거실/1.html').then(function(response){
+            response.text().then(function(text){
+              document.querySelector('.인테리어내용').innerHTML = text;
+              fetch('주거공간/부분인테리어/거실/pagenavigation').then(function(response){
+                response.text().then(function(text){
+                  document.querySelector('.pagenavigation').innerHTML = text;
+                  fetch('bottom-nav').then(function(response){
+                    response.text().then(function(text){
+                      document.querySelector('.bottom-nav').innerHTML = text;
+    })})})})})
+  })})})})});
+  "><h4>거실</h4></a>
+</div>
+<div class="">
+<a onclick="
+  fetch('주거공간.html').then(function(response){
+    response.text().then(function(text){
+      document.querySelector('.interspace-main-grid-9').innerHTML = text;
+      fetch('주거공간/부분인테리어/부분인테리어메뉴').then(function(response){
+        response.text().then(function(text){
+          document.querySelector('.인테리어메뉴').innerHTML = text;
+          fetch('주거공간/부분인테리어/침실/1.html').then(function(response){
+            response.text().then(function(text){
+              document.querySelector('.인테리어내용').innerHTML = text;
+              fetch('주거공간/부분인테리어/침실/pagenavigation').then(function(response){
+                response.text().then(function(text){
+                  document.querySelector('.pagenavigation').innerHTML = text;
+                  fetch('bottom-nav').then(function(response){
+                    response.text().then(function(text){
+                      document.querySelector('.bottom-nav').innerHTML = text;
+    })})})})})
+  })})})})});
+  "><h4>침실</h4></a>
+</div>
+<div class="">
+<a onclick="
+  fetch('주거공간.html').then(function(response){
+    response.text().then(function(text){
+      document.querySelector('.interspace-main-grid-9').innerHTML = text;
+      fetch('주거공간/부분인테리어/부분인테리어메뉴').then(function(response){
+        response.text().then(function(text){
+          document.querySelector('.인테리어메뉴').innerHTML = text;
+          fetch('주거공간/부분인테리어/주방/1.html').then(function(response){
+            response.text().then(function(text){
+              document.querySelector('.인테리어내용').innerHTML = text;
+              fetch('주거공간/부분인테리어/주방/pagenavigation').then(function(response){
+                response.text().then(function(text){
+                  document.querySelector('.pagenavigation').innerHTML = text;
+                  fetch('bottom-nav').then(function(response){
+                    response.text().then(function(text){
+                      document.querySelector('.bottom-nav').innerHTML = text;
+    })})})})})
+  })})})})});
+  "><h4>주방</h4></a>
+</div>
+<div class="">
+<a onclick="
+  fetch('주거공간.html').then(function(response){
+    response.text().then(function(text){
+      document.querySelector('.interspace-main-grid-9').innerHTML = text;
+      fetch('주거공간/부분인테리어/부분인테리어메뉴').then(function(response){
+        response.text().then(function(text){
+          document.querySelector('.인테리어메뉴').innerHTML = text;
+          fetch('주거공간/부분인테리어/욕실/1.html').then(function(response){
+            response.text().then(function(text){
+              document.querySelector('.인테리어내용').innerHTML = text;
+              fetch('주거공간/부분인테리어/욕실/pagenavigation').then(function(response){
+                response.text().then(function(text){
+                  document.querySelector('.pagenavigation').innerHTML = text;
+                  fetch('bottom-nav').then(function(response){
+                    response.text().then(function(text){
+                      document.querySelector('.bottom-nav').innerHTML = text;
+    })})})})})
+  })})})})});
+  "><h4>욕실</h4></a>
+</div>
+<div class="">
+<a onclick="
+  fetch('주거공간.html').then(function(response){
+    response.text().then(function(text){
+      document.querySelector('.interspace-main-grid-9').innerHTML = text;
+      fetch('주거공간/부분인테리어/부분인테리어메뉴').then(function(response){
+        response.text().then(function(text){
+          document.querySelector('.인테리어메뉴').innerHTML = text;
+          fetch('주거공간/부분인테리어/베란다-샷시/1.html').then(function(response){
+            response.text().then(function(text){
+              document.querySelector('.인테리어내용').innerHTML = text;
+              fetch('주거공간/부분인테리어/베란다-샷시/pagenavigation').then(function(response){
+                response.text().then(function(text){
+                  document.querySelector('.pagenavigation').innerHTML = text;
+                  fetch('bottom-nav').then(function(response){
+                    response.text().then(function(text){
+                      document.querySelector('.bottom-nav').innerHTML = text;
+    })})})})})
+  })})})})});
+  "><h4>베란다/샷시</h4></a>
+</div>
+<div class="">
+<a onclick="
+  fetch('주거공간.html').then(function(response){
+    response.text().then(function(text){
+      document.querySelector('.interspace-main-grid-9').innerHTML = text;
+      fetch('주거공간/부분인테리어/부분인테리어메뉴').then(function(response){
+        response.text().then(function(text){
+          document.querySelector('.인테리어메뉴').innerHTML = text;
+          fetch('주거공간/부분인테리어/드레스룸/1.html').then(function(response){
+            response.text().then(function(text){
+              document.querySelector('.인테리어내용').innerHTML = text;
+              fetch('주거공간/부분인테리어/드레스룸/pagenavigation').then(function(response){
+                response.text().then(function(text){
+                  document.querySelector('.pagenavigation').innerHTML = text;
+                  fetch('bottom-nav').then(function(response){
+                    response.text().then(function(text){
+                      document.querySelector('.bottom-nav').innerHTML = text;
+    })})})})})
+  })})})})});
+  "><h4>드레스룸</h4></a>
