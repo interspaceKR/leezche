@@ -1,0 +1,506 @@
+/* Noto Sans KR (korean) font*/
+body {
+  font-family: 'NotoKrR', serif;
+  color: rgba(0, 0, 0, 0.7);
+  }
+  .interior{
+    display: grid;
+    grid-template-columns: 4fr 4fr 4fr;
+  }
+  .categories h2{
+    font-family: 'Kaushan Script', cursive;
+  }
+  .todaysbesthouse h1{
+    font-size:45px;
+    font-family: 'Kaushan Script', cursive;
+  }
+  .todaysbeststore h1{
+    font-size:45px;
+    font-family: 'Kaushan Script', cursive;
+  }
+  li {
+    list-style-type: none;
+  }
+  a:hover {
+    color:rgb(76, 199, 205);
+  }
+  a:visited {
+    text-decoration: : none;
+  }
+  a:active {
+    text-decoration: none;
+  }
+  a:link {
+    text-decoration: none;
+  }
+  @font-face {
+  font-family: 'NotoKrL';
+  font-style: normal;
+  font-weight: 100;
+  src: local('Noto Sans Light'), local('NotoSans-Light'), url(../fonts/NotoSans-Light.eot);
+  src: url(../fonts/NotoSans-Light.eot?#iefix) format('embedded-opentype'),
+  url(../fonts/NotoSans-Light.woff2) format('woff2'),
+  url(../fonts/NotoSans-Light.woff) format('woff');
+  }
+  @font-face {
+  font-family: 'NotoKrR';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Noto Sans Regular'), local('NotoSans-Regular'), url(../fonts/NotoSans-Regular.eot);
+  src: url(../fonts/NotoSans-Regular.eot?#iefix) format('embedded-opentype'),
+  url(../fonts/NotoSans-Regular.woff2) format('woff2'),
+  url(../fonts/NotoSans-Regular.woff) format('woff');
+  }
+  @font-face {
+  font-family: 'NotoKrM';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Noto Sans Medium'), local('NotoSans-Medium'), url(../fonts/NotoSans-Medium.eot);
+  src: url(../fonts/NotoSans-Medium.eot?#iefix) format('embedded-opentype'),
+  url(../fonts/NotoSans-Medium.woff2) format('woff2'),
+  url(../fonts/NotoSans-Medium.woff) format('woff');
+  }
+  @font-face {
+  font-family: 'NotoKrB';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Noto Sans Bold'), local('NotoSans-Bold'), url(../fonts/NotoSans-Bold.eot);
+  src: url(../fonts/NotoSans-Bold.eot?#iefix) format('embedded-opentype'),
+  url(../fonts/NotoSans-Bold.woff2) format('woff2'),
+  url(../fonts/NotoSans-Bold.woff) format('woff');
+}
+/* Noto Sans KR (korean)*/
+/* menuicon */
+.menuicon {
+  width: 40px;
+  height:60px;
+  padding-bottom: 0;
+  padding-left: 15px;
+  padding-right: 2em;
+  position: fixed;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  overflow-y: hidden;
+  z-index: 9999;
+  background-color: none;
+  }
+  input[id="menuicon"] {display:none;}
+  input[id="menuicon"] + label {display:block;margin:30px;width:40px;height:30px;position:relative;cursor:pointer;}
+  input[id="menuicon"] + label span {display:block;position:absolute;width:100%;height:5px;border-radius:30px;background:#000;transition:all 0.5s;}
+  input[id="menuicon"] + label span:nth-child(1) {top:0;}
+  input[id="menuicon"] + label span:nth-child(2) {top:50%;transform:translateY(-50%);}
+  input[id="menuicon"] + label span:nth-child(3) {bottom:0;}
+  input[id="menuicon"]:checked + label {z-index:2;}
+  input[id="menuicon"]:checked + label span {background:#fff;}
+  input[id="menuicon"]:checked + label span:nth-child(1) {top:50%;transform:translateY(-50%) rotate(45deg);}
+  input[id="menuicon"]:checked + label span:nth-child(2) {opacity:0;}
+  input[id="menuicon"]:checked + label span:nth-child(3) {bottom:50%;transform:translateY(50%) rotate(-45deg);}
+  div[class="sidebar"] {width:100%;height:500px;background:#222;position:fixed;top:0;right:9999px;z-index:1;transition: all .5s;}
+  input[id="menuicon"]:checked + label + div {right:0;}
+/* menuicon */
+/* aside */
+@media (min-width: 1200px){
+  #interspace-aside {
+    width:18%;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    overflow-y: hidden;
+    z-index: 1;
+    border-right: 1px solid #e6e6e6;
+    position: fixed;
+  }}
+  #interspace-aside ul {
+    padding-top: 100px;
+  }
+  @media (max-width: 1199px){
+    #interspace-aside {
+      width:25%;
+      bottom: 0;
+      top: 0;
+      left: 0;
+      right: 0;
+      overflow-y: hidden;
+      z-index: 1;
+      border-right: 1px solid #e6e6e6;
+      position: fixed;
+    }}
+    #interspace-aside ul {
+      padding-top: 100px;
+    }
+
+  @media (min-width: 1200px){
+  #interspace-aside ul li {
+    display: table;
+    margin: 0 0 20px 0;
+    padding: 0;
+    font-size:20px;
+    font-weight: 600;
+  }}
+  @media (max-width: 1199px){
+  #interspace-aside ul li {
+    display: table;
+    margin: 0 0 20px 0;
+    padding: 0;
+    font-size:17x;
+    font-weight: 600;
+  }}
+  @media (max-width: 800px){
+  #interspace-aside {
+    display: none;
+  }}
+  li:hover {
+    color: rgb(76,199,205);
+  }
+  li {
+    position: relative;
+  }
+  li:after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    height: 2px;
+    left: 20%;
+    position: absolute;
+    background: rgb(76,199,205);
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+  li:hover:after {
+    width: 100%;
+    left: 0;
+  }
+  #interspace-aside .aside-bottom {
+    position: absolute;
+    bottom: 20px;
+    left: 0;    right: 0;
+    padding: 0 20px;
+  }
+  @media (min-width: 1200px){
+  #interspace-aside .aside-bottom span {
+    font-size: 50px;
+    line-height: 2;
+    font-family: 'Pacifico', cursive;
+    }}
+  @media (max-width: 1199px){
+  #interspace-aside .aside-bottom span {
+    font-size: 40px;
+    line-height: 2;
+    font-family: 'Pacifico', cursive;
+    }}
+  @media (min-width: 1200px){
+  #interspace-aside .aside-bottom p {
+    font-size: 15px;
+    line-height: 1.4;
+    }}
+  @media (max-width: 1199px){
+  #interspace-aside .aside-bottom p {
+    font-size: 14px;
+    line-height: 1.4;
+    }}
+/* aside */
+/* main */
+@media (min-width: 1200px){
+  #interspace-main {
+    width:82%;
+    z-index: 1;
+    float: right;
+    font-size: 16px;
+  }}
+  @media (max-width: 1199px){
+    #interspace-main {
+      width:75%;
+      z-index: 1;
+      float: right;
+      font-size: 16px;
+  }}
+  @media (max-width: 800px){
+    #interspace-main {
+      width:100%;
+      z-index: 1;
+      float: right;
+      font-size: 16px;
+  }}
+  @media (min-width: 1000px){
+    .interspace-main-grid {
+      display: grid;
+      grid-template-columns: 9fr 3fr;
+  }}
+  @media (max-width: 999px){
+    .interspace-main-grid {
+      display: grid;
+      grid-template-columns: 12fr}
+    .interspace-main-grid-3 {
+      display: none;
+  }}
+/* main */
+/* slide */
+#slider {
+  overflow: hidden;
+  }
+  #slider figure {
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    animation: 20s slider infinite;
+  }
+  #slider figure img {
+    width: 20%;
+    float: left;
+  }
+
+  @keyframes slider {
+    0% {
+      left: 0;
+    }
+    20% {
+      left: 0;
+    }
+    25% {
+      left: -100%;
+    }
+    45% {
+      left: -100%;
+    }
+    50% {
+      left: -200%;
+    }
+    70% {
+      left: -200%;
+    }
+    75% {
+      left: -300%;
+    }
+    95% {
+      left: -300%;
+    }
+    100% {
+      left: -400%;
+    }
+  }
+/* slide */
+/* todaysbesthouse */
+.todaysbesthouse h1{
+    text-align: center;
+    margin-top: 150px;
+  }
+  .todaysbesthouse img{
+    width:100%
+  }
+/* todaysbesthouse */
+/* todaysbesthouse */
+.todaysbeststore h1{
+    text-align: center;
+    margin-top: 150px;
+  }
+  .todaysbeststore img{
+    width:100%
+  }
+/* todaysbesthouse */
+/* grid */
+.four-grid{
+  display: grid;
+  grid-template-columns: 3fr 3fr 3fr 3fr;
+}
+.two-grid{
+  display: grid;
+  grid-template-columns: 6fr 6fr;
+}
+/* grid */
+/* fade */
+.onthemouse {
+    position:   relative;
+    width: 100%;
+  }
+
+  .image_onthemouse {
+    display: block;
+    width: 100%;
+  }
+
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(173, 235, 235, 0.6 ) ;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+    opacity:;
+  }
+
+  .onthemouse:hover .overlay {
+    height: 100%;
+  }
+
+  .text {
+    white-space: nowrap;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+/* fade */
+/* mainright무료견적 */
+.mainright무료견적{
+  margin-left: 50px;
+  margin-right: 50px;
+  border: 1px solid rgba(173, 235, 235, 0.3);
+  background-color: rgba(173, 235, 235, 0.3);
+  text-align: center;
+}
+/* category */
+.categories h2{
+    margin-top:50px;
+  }
+  .categories {
+    padding-right: 50px;
+    padding-left: 50px;
+  }
+  .categories .categories-main div{
+    border-bottom: 1px solid #dee2e6;
+    padding-bottom: 5px;
+  }
+  .categories .categories-main div span{
+    float: right;
+  }
+  .categories-tag div{
+    word-spacing: 7px;
+    font-size: 1vw
+  }
+  .categories .categories-Archives div{
+    border-bottom: 1px solid #dee2e6;
+    padding-bottom: 5px;
+  }
+  .categories .categories-Archives div span{
+    float: right;
+  }
+/* category */
+/* home-bottom-nav */
+.bottom-nav{
+    padding: 50px;
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr 2fr 2fr;
+    font-size: .7vw;
+  }
+  .bottom-nav-menuicon{
+      padding: 50px;
+      margin-top: 100px;
+      display: grid;
+      grid-template-columns: 3fr 3fr 3fr 3fr;
+  }
+  .bottom-nav-name{
+    font-size: .9vw;
+    line-height: 3;
+    font-weight: bold;
+  }
+  .bottom-nav-name-menuicon{
+    font-size: 18px;
+    line-height: 3;
+    font-weight: bold;
+  }
+  .bottom-nav-company{
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+  }
+/* 공간 */
+.주거공간-top{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 60px;
+    text-align: center;
+    margin-top: 50px;
+    }
+  .상업공간-top{
+      font-family: 'Kaushan Script', cursive;
+      font-size: 60px;
+      text-align: center;
+      margin-top: 50px;
+    }
+  .파트너스-top{
+      font-family: 'Kaushan Script', cursive;
+      font-size: 60px;
+      text-align: center;
+      margin-top: 50px;
+    }
+  .회사소개-top{
+      font-family: 'Kaushan Script', cursive;
+      font-size: 60px;
+      text-align: center;
+      margin-top: 50px;
+    }
+  .고객센터-top{
+      font-family: 'Kaushan Script', cursive;
+      font-size: 60px;
+      text-align: center;
+      margin-top: 50px;
+    }
+  .이벤트-top{
+      font-family: 'Kaushan Script', cursive;
+      font-size: 60px;
+      text-align: center;
+      margin-top: 50px;
+    }
+  .주거공간인테리어{
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+    }
+  .주거공간인테리어 div{
+    border-bottom:2px solid rgb(76,199,205)
+    }
+  .인테리어메뉴{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr 2fr 2fr;
+    }
+  .회사소개메뉴{
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr 3fr;
+    }
+  .고객센터메뉴{
+    display: grid;
+    grid-template-columns: 4fr 4fr 4fr;
+    }
+  .이벤트메뉴{
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+    }
+/* 공간 */
+/* pagenav */
+.pagenavigation{
+    margin-top: 50px;
+    text-align: center;
+  }
+  .pagenav {
+    display: inline-block;
+    text-align:center;
+  }
+
+  .pagenav a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+
+  .pagenav a:hover:not(.active) {
+    background-color: rgba(173, 235, 235, 0.5);
+    border-radius: 5px;
+  }
+/* pagenav */
+.active{
+  color: rgb(76,199,205);
+}
+.partners{
+  display: grid;
+  grid-template-columns: 3fr 3fr 3fr 3fr;
+}

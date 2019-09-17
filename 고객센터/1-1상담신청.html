@@ -1,0 +1,27 @@
+<div style="border:1px solid rgba(0, 0, 0, 0.7); margin-left:30px; margin-right:30px;">
+  <div style="margin:30px; text-align:center;">
+    <a onclick="
+      fetch('회사소개.html').then(function(response){
+        response.text().then(function(text){
+          document.querySelector('.interspace-main-grid-9').innerHTML = text;
+          fetch('회사소개/회사소개메뉴').then(function(response){
+            response.text().then(function(text){
+              document.querySelector('.회사소개메뉴').innerHTML = text;
+              fetch('회사소개/사업정보').then(function(response){
+                response.text().then(function(text){
+                  document.querySelector('.인테리어내용').innerHTML = text;
+                    fetch('bottom-nav').then(function(response){
+                      response.text().then(function(text){
+                        document.querySelector('.bottom-nav').innerHTML = text;
+        })})})})
+      })})})});
+      ">공감패키지 자세히 보러가기 》<a><br>
+    <br><br>
+    Q. 혹시 수수료가 있나요?<br><br>
+    시공 의뢰 시 고객님들께서 납부하시는 수수료는 없습니다. 파트너스들에게 시공의뢰 수수료 4%를 받고 있습니다.<br>
+  </div>
+</div>
+<!-- bottom nav -->
+<div class="bottom-nav">
+</div>
+<!-- bottom nav -->
